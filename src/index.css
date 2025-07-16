@@ -1,0 +1,57 @@
+body, html {
+  
+    font-family: "Michroma", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+  
+  background-color: #191a19 !important;
+  scroll-behavior: smooth !important;
+  overflow-x: hidden !important;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+i.fi.fi-rr-layers {
+  font-size: 48px; /* Ajusta el tamaño como lo desees */
+}
+
+
+
+.fi.fi-rs-engine-warning,
+.fi.fi-rr-traffic-light-go {
+    font-size: 48px; /* Cambia el tamaño aquí */
+}
+
+
+.fi.fi-sr-settings-sliders {
+  font-size: 48px; /* Ajusta el tamaño según lo necesites */
+}
+
+
+.fi.fi-rr-expand {
+  font-size: 48px; /* Cambia el tamaño a lo que necesites */
+}
+
+
+.fi.fi-bs-admin-alt {
+  font-size: 48px; /* Ajusta el tamaño a lo que necesites */
+}
+/* Estilo para las tarjetas */
+.bg-dark {
+  transition: all 0.3s ease-in-out; /* Transición suave para la animación */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra inicial */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo cuando el mouse pasa sobre la tarjeta */
+.bg-dark:hover {
+  transform: translateY(-10px) scale(1.05); /* Eleva la tarjeta y la hace un poco más grande */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta la sombra */
+  border: 1px solid green;
+}
+
+/* Sombra adicional en el borde */
+.bg-dark:hover .border {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra del borde */
+}
