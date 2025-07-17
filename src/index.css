@@ -4,7 +4,7 @@ body, html {
     font-weight: 400;
     font-style: normal;
   
-  background-color: #191a19 !important;
+    background-color: #191a19 !important;
   scroll-behavior: smooth !important;
   overflow-x: hidden !important;
   margin: 0;
@@ -54,4 +54,198 @@ i.fi.fi-rr-layers {
 /* Sombra adicional en el borde */
 .bg-dark:hover .border {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra del borde */
+}
+
+
+.videoHeader{
+  width: 900px;
+  
+}
+
+
+/* From Uiverse.io by Li-Deheng */ 
+.btn-conteiner {
+  display: flex;
+  justify-content: center;
+  --color-text: #ffffff;
+  --color-background: green;
+  --color-outline: #ff145b80;
+  --color-shadow: #00000080;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: 1s;
+  border-radius: 100px;
+  box-shadow: 0 0 0.2em 0 var(--color-background);
+}
+
+.btn-content:hover, .btn-content:focus {
+  transition: 0.5s;
+  -webkit-animation: btn-content 1s;
+  animation: btn-content 1s;
+  outline: 0.1em solid transparent;
+  outline-offset: 0.2em;
+  box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+
+.btn-content .icon-arrow {
+  transition: 0.5s;
+  margin-right: 0px;
+  transform: scale(0.6);
+}
+
+.btn-content:hover .icon-arrow {
+  transition: 0.5s;
+  margin-right: 25px;
+}
+
+.icon-arrow {
+  width: 20px;
+  margin-left: 15px;
+  position: relative;
+  top: 6%;
+}
+  
+/* SVG */
+#arrow-icon-one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.btn-content:hover #arrow-icon-three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content:hover #arrow-icon-one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content:hover #arrow-icon-two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: var(--color-background);
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
+/* Button animations */
+@-webkit-keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+@keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+.btn-title{
+ 
+  font-family: "Michroma", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.carousel-inner {
+  max-height: 600px; /* Ajusta según lo que necesites */
+  overflow: hidden;
+}
+
+.carousel-image {
+  object-fit: cover;
+  height: 600px; /* Asegúrate de que coincida con .carousel-inner */
+}
+
+.carousel-caption {
+  max-width: 80%;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner,
+  .carousel-image {
+    height: 300px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Nivel de oscuridad */
+  z-index: 1;
+}
+html::-webkit-scrollbar{
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 15x;
+  width: 5px;
+
+ 
+}
+html::-webkit-scrollbar-thumb{
+  background-color: #00ff08  !important;
+  width: 10px;
+  border-radius: 20px;
+}
+
+.inputContact {
+  background-color: rgb(19, 19, 19);
+  border: 1px solid #00ff084f;
+  color: #ffffff; /* Asegura que el texto siga siendo claro */
+}
+
+.inputContact:focus {
+  background-color: rgb(19, 19, 19);  /* mantiene el fondo oscuro */
+  border: 1px solid #00ff08;          /* opcional: más visible en focus */
+  color: #ffffff;
+  box-shadow: none;                   /* elimina el glow azul de Bootstrap */
+  outline: none;
+}
+
+
+footer{
+  background-color: rgb(19, 19, 19);
 }
