@@ -51,17 +51,6 @@ export const Header = () => {
   </button>
 </div>
 
-{/* <div className="">
-                    <h1 className="">Sistemas de enclavamiento de esclusas</h1>
-                    <p className="">
-                        Garantizando la seguridad y eficiencia  <br />en el acceso de <b>áreas clasificadas</b>
-                    </p>
-
-                    <button className="btn btn-outline-success px-5 pt-2 pb-2 d-inline-flex align-items-center gap-2">
-                        Ver Más
-                        <i className="fi fi-ts-arrow-small-right" style={{ fontSize: "1rem" }}></i>
-                    </button>
-                </div> */}
             <div className="row p-5">
 
                
