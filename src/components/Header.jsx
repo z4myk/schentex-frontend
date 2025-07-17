@@ -1,8 +1,8 @@
 import React from 'react';
 
-import passbox from '../assets/passbox.webp'
-import passbox2 from '../assets/passbox2.webp'
-import puertas from '../assets/puertas.webp'
+import passbox from '../assets/Passbox.webp'
+import passbox2 from '../assets/Passbox2.webp'
+import puertas from '../assets/Puertas.webp'
 export const Header = () => {
     return (
         <header className="text-light text-center pb-3   ">
