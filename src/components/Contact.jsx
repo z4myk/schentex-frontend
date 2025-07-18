@@ -2,8 +2,9 @@ import React from 'react'
 
 export const Contact = () => {
     return (
-        <section className="container mb-5 mt-5 pt-5 text-light">
+        <section className="container mb-5 mt-5 pt-5 text-light" id="contact">
             <h2 className="text-light text-center">Contáctanos</h2>
+            <hr />
             <div className="row">
 
 

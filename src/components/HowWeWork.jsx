@@ -19,7 +19,7 @@ export const HowWeWork = () => {
             </div>
                 <p className="mb-5">Nuestro <b>sistema de enclavamiento de esclusas</b> está diseñado para garantizar el control y la 
 eficiencia del acceso en áreas clasificadas de una <b>Sala Limpia.</b>  </p>
-<p>Integrado por plaquetas electrónicas, relés, cerraduras y botones de emergencia, permite el 
+<p>Integrado por controladores electrónicos, semáforos, cerraduras y botones de emergencia, permite el 
 realizar el proceso de <b>Interlock/Enclavamiento</b> de una o varias puertas, asegurando que nunca 
 puedan abrirse simultáneamente, evitando la contaminación cruzada y regulando la presión 
 entre áreas.</p>

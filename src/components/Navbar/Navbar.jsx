@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../../assets/logo.webp'
+import {Link} from 'react-router-dom'
 export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -25,14 +26,18 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto mx-5">
             {/*             ↑↑↑        */}
-            <a className="nav-link active mx-5" aria-current="page" href="#">
-              inicio
+            <Link to="/" className="text-decoration-none">
+            <a className="nav-link  mx-5 efectoLista navbarButtons" aria-current="page" href="#">
+              <b>Inicio</b>
             </a>
-            <a className="nav-link  x-5" href="#">
-              Enclavamientos
+            </Link>
+            <Link to="/enclavamientos" className="text-decoration-none">
+            <a className="nav-link  x-5 efectoLista" href="#">
+              <b>Enclavamientos</b>
             </a>
-            <a className="nav-link mx-5" href="#">
-              Contacto
+            </Link>
+            <a className="nav-link mx-5 efectoLista" href="#contact">
+              <b>Contacto</b>
             </a>
            
           </div>

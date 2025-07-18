@@ -4,8 +4,9 @@ import personalizacion from '../assets/ajustes.gif';
 export const Characters = () => {
     return (
         <section className="text-light container mb-5">
-            <div>
-                <h2 className="text-center mb-5">Características</h2>
+            <div className="mb-4">
+                <h2 className="text-center">Características</h2>
+                <hr />
             </div>
 
             <div className="d-flex justify-content-center gap-4 mb-5  text-center">

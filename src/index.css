@@ -249,3 +249,86 @@ html::-webkit-scrollbar-thumb{
 footer{
   background-color: rgb(19, 19, 19);
 }
+
+
+
+
+
+.efectoLista{
+  position: relative;
+  letter-spacing: 0.5px;
+ 
+  
+}
+
+
+.efectoListaCoaching b {
+  background: linear-gradient(90deg, #FFD700, #FFA500, #FFD700);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  position: relative;
+  text-shadow: 0 0 5px #FFD700, 0 0 10px #FFA500, 0 0 15px #FFD700;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+
+.efectoListaCoaching:after{
+  content: "";
+  position: absolute;
+  background: linear-gradient(90deg, #FFD700, #FFA500, #FFD700);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 0px;
+  transition: 0.4s;
+}
+
+.efectoListaCoaching:hover:after{
+
+ width: 100%;
+}
+
+
+
+.efectoLista:hover{
+  
+}
+
+.efectoLista:after{
+   content: "";
+   position: absolute;
+   background-color: #00c206;
+   height: 3px;
+   width: 0;
+   left: 0;
+   bottom: 0px;
+   transition: 0.4s;
+}
+
+.efectoLista:hover:after{
+
+  width: 100%;
+}
+
+
+.cardsInterlocks{
+  width: 300px;
+}
+
+
+
+.videoHeaderInterlocks{
+  border: 1px solid green;
+  border-radius: 20px;
+}
+
+
+.complejo{
+  width: 200px;
+}
+
+.combinado{
+  width: 280px;
+}
