@@ -292,9 +292,6 @@ footer{
 
 
 
-.efectoLista:hover{
-  
-}
 
 .efectoLista:after{
    content: "";
@@ -332,3 +329,35 @@ footer{
 .combinado{
   width: 280px;
 }
+
+
+.wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.5)), center fixed url('./assets/Passbox.webp');
+  height: 20vh;
+  background-size: cover;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  
+ 
+}
+
+.wrapper2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.5)), center fixed url('./assets/Passbox2.webp');
+  height: 20vh;
+  background-size: cover;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+ 
+}
+
+  

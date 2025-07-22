@@ -2,22 +2,31 @@ import React from 'react'
 import simple from '../../assets/simple.mp4'
 import giftheader from '../../assets/giftheader.mp4'
 import complejo from '../../assets/complejo.mp4'
+import { Adaptability } from '../Adaptability'
 export const Interlocks = () => {
     return (
-        <section className="text-center text-light mt-5 container pb-5 ">
-            <h1>Nuestros Enclavamientos</h1>
-            <hr />
+        <>
+        <div className="bg-light  mb-3 wrapper2">
+            
+        <h1><b>Nuestros Enclavamientos</b></h1>
+          </div>
+        <section className="text-center text-light mt-5  pb-5 ">
+            
+            <div className="container pb-5">
+
+     
 
             <div>
 
-            <p>Cada enclavamiento se ajusta a las necesidades específicas del área. <br />
-Denominamos tres tipos de enclavamiento acorde a sus capacidades:</p> <br/>
+            <p><b>Cada enclavamiento se ajusta a las necesidades específicas del área. <br />
+Denominamos tres tipos de enclavamiento acorde a sus capacidades:</b></p> <br/>
             
+            </div>
 
 
 
 
-<div className="d-flex justify-content-center gap-5 mb-5  flex-wrap text-center">
+<div className="d-flex justify-content-center gap-5 mb-5  container flex-wrap text-center">
                 {/* Tarjeta de Personalización */}
                 <div className="bg-dark shadow p-1 cardsInterlocks">
                     <div className="d-flex justify-content-center mt-4">
@@ -102,6 +111,9 @@ Denominamos tres tipos de enclavamiento acorde a sus capacidades:</p> <br/>
                
             </div>
             </div>
+
+         
         </section>
+        </>
     )
 }

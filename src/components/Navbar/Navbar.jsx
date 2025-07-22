@@ -3,6 +3,9 @@ import logo from '../../assets/logo.webp'
 import {Link} from 'react-router-dom'
 export const Navbar = () => {
   return (
+    <>
+
+    
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
@@ -32,10 +35,32 @@ export const Navbar = () => {
             </a>
             </Link>
             <Link to="/enclavamientos" className="text-decoration-none">
-            <a className="nav-link  x-5 efectoLista" href="#">
-              <b>Enclavamientos</b>
+            <a className="nav-link" href="#">
+              
             </a>
             </Link>
+            <li class="nav-item dropdown">
+          <a class="nav-link  efectoLista" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <b>Enclavamientos</b><i class="fi fi-br-caret-down text-success"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <Link to="/enclavamientos/personalizacion" className="text-decoration-none">
+            <li><a class="dropdown-item p-3" href="#"><b>Personalización</b></a></li>
+            </Link>
+            <li><hr class="dropdown-divider" /></li>
+            <Link to="/enclavamientos/adaptabilidad" className="text-decoration-none">
+            <li><a class="dropdown-item p-3" href="#"><b>Adaptabilidad</b></a></li>
+            </Link>
+            <li><hr class="dropdown-divider" /></li>
+            <Link to="/enclavamientos/senalizacion" className="text-decoration-none">
+            <li><a class="dropdown-item p-3" href="#"><b>Señalización</b></a></li>
+            </Link>
+            <li><hr class="dropdown-divider" /></li>
+            <Link to="/enclavamientos/instalacion" className="text-decoration-none">
+            <li><a class="dropdown-item p-3" href="#"><b>Instalación</b></a></li>
+            </Link>
+          </ul>
+        </li>
             <a className="nav-link mx-5 efectoLista" href="#contact">
               <b>Contacto</b>
             </a>
@@ -44,5 +69,6 @@ export const Navbar = () => {
         </div>
       </div>
     </nav>
+    </>
   );
 };
