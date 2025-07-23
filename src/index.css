@@ -232,7 +232,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .inputContact {
-  background-color: rgb(19, 19, 19);
+  background-color: rgb(19, 19, 19) !important;
   border: 1px solid #00ff084f;
   color: #ffffff; /* Asegura que el texto siga siendo claro */
 }
@@ -250,9 +250,21 @@ footer{
   background-color: rgb(19, 19, 19);
 }
 
+.backgroundCards{
+  background-color: rgba(9, 9, 9, 0.59);
+}
 
+.backgroundSection{
+  background-color: rgb(37, 37, 38);
+}
 
+.hiperTexts{
+  color: white;
+}
 
+.hiperTexts:hover{
+  color: green;
+}
 
 .efectoLista{
   position: relative;
@@ -359,5 +371,36 @@ footer{
   text-align: center;
  
 }
+.wrapper3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.5)), center fixed url('./assets/senalizacion.webp');
+  height: 20vh;
+  background-size: cover;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+ 
+}
 
   
+.cardSemaforo{
+  border: 3px solid gray;
+}
+
+
+.indice {
+  transition: all 0.3s ease-in-out; /* Transición suave para la animación */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra inicial */
+  cursor: pointer;
+}
+
+.indice:hover{
+  
+    transform: translateY(-10px) scale(1.05); /* Eleva la tarjeta y la hace un poco más grande */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta la sombra */
+    border: 1px solid green;
+  
+}

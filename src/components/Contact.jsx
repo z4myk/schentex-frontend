@@ -23,7 +23,7 @@ export const Contact = () => {
                     </div>
                     <div className="mt-3 mb-4">
                     <label>Email: </label>
-                    <input className="form-control  text-light inputContact " />
+                    <input className="form-control  text-light inputContact  " />
                     </div>
                     <div className="mt-3 mb-4">
                     <label>Mensaje</label>

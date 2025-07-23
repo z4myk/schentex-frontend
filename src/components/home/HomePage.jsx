@@ -13,7 +13,7 @@ export const HomePage = () => {
             <HowWeWork />
             <Characters/>
             <Contact />
-            <Footer />
+           
         </div>
     )
 }

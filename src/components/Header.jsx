@@ -3,6 +3,7 @@ import React from 'react';
 import passbox from '../assets/Passbox.webp'
 import passbox2 from '../assets/Passbox2.webp'
 import puertas from '../assets/Puertas.webp'
+
 export const Header = () => {
     return (
         <header className="text-light text-center pb-3   ">
@@ -21,10 +22,12 @@ export const Header = () => {
       Garantizando la seguridad y eficiencia <br />
       en el acceso de <b>áreas clasificadas</b>
     </p>
+    <a className="text-decoration-none" href="#caracteristicas">
     <button className="btn btn-success px-5 pt-2 pb-2 d-inline-flex align-items-center gap-2">
       Ver Más
-      <i className="fi fi-ts-arrow-small-right" style={{ fontSize: "1rem" }}></i>
+
     </button>
+    </a>
   </div>
 
   {/* Slides */}

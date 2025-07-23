@@ -1,9 +1,9 @@
 import React from 'react';
 import personalizacion from '../assets/ajustes.gif';
-
+import {Link} from 'react-router-dom'
 export const Characters = () => {
     return (
-        <section className="text-light container mb-5">
+        <section className="text-light container mb-5" id="caracteristicas">
             <div className="mb-4">
                 <h2 className="text-center">Características</h2>
                 <hr />
@@ -21,7 +21,11 @@ export const Characters = () => {
                         <p className="small">Cada enclavamiento se ajusta a las
  necesidades específicas del área. 
 </p>
+                   
+                        <a href="/enclavamientos/personalizacion"> 
                         <button className="btn btn-outline-success p-3">Ver más</button>
+                        </a>
+                   
                     </div>
                 </div>
 
@@ -34,7 +38,10 @@ export const Characters = () => {
                         <h6><b>Adaptabilidad</b></h6>
                         <hr />
                         <p className="small">Sistema funcional para cualquier tipo de cerradura y accesorios para el control de accesos.  </p>
+                        <a href="/enclavamientos/adaptabilidad">
                         <button className="btn btn-outline-success p-3">Ver más</button>
+                        </a>
+                            
                     </div>
                 </div>
 
@@ -49,7 +56,9 @@ export const Characters = () => {
                         <p className="small">Contamos con varios modelos de Semáforos, 
 diseñados para garantizar la 
 señalización lumínica  </p>
+<a href="/enclavamientos/senalizacion">
                         <button className="btn btn-outline-success p-3">Ver más</button>
+</a>
                     </div>
                 </div>
 
@@ -65,8 +74,10 @@ señalización lumínica  </p>
  Servicios de 
 Instalación y Puesta en marcha
  del equipo en planta. 
-</p>
+</p>                  
+<a href="/enclavamientos/instalacion"> 
                         <button className="btn btn-outline-success p-3">Ver más</button>
+</a>
                     </div>
                 </div>
             </div>

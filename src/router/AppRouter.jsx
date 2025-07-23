@@ -7,9 +7,11 @@ import { Navbar } from "../components/Navbar/Navbar";
 import { Instalation } from "../components/pages/Instalation";
 import { Interlocks } from "../components/pages/Interlocks";
 import { Signaling } from "../components/pages/Signaling";
+import { Wrapper } from "../Wrapper";
 export const AppRouter = () => {
     return (
         <>
+        {/* <Wrapper /> */}
     <Navbar />        
         <Routes>
 
