@@ -1,7 +1,8 @@
 import React from 'react';
 
-import passbox from '../assets/Passbox.webp'
-import passbox2 from '../assets/Passbox2.webp'
+import banner from '../assets/banner.jpg'
+import banner2 from '../assets/banner2.webp'
+import banner3 from '../assets/banner3.webp'
 import puertas from '../assets/Puertas.webp'
 
 export const Header = () => {
@@ -33,13 +34,14 @@ export const Header = () => {
   {/* Slides */}
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={passbox} className="d-block w-100 carousel-image" alt="Passbox" />
+      <img src={banner} className="d-block w-100 carousel-image" alt="Passbox" />
     </div>
     <div className="carousel-item">
-      <img src={puertas} className="d-block w-100 carousel-image" alt="Puertas" />
+      <img src={banner2} className="d-block w-100 carousel-image" alt="Puertas" />
     </div>
     <div className="carousel-item">
-      <img src={passbox2} className="d-block w-100 carousel-image" alt="Passbox" />
+     
+     <img src={banner3} className="d-block w-100 carousel-image" alt="Puertas" />
     </div>
   </div>
 

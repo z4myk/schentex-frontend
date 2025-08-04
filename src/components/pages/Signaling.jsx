@@ -28,7 +28,7 @@ export const Signaling = () => {
 
 
     return (
-        <section>
+        <section className="mt-5">
             <div className="bg-light  mb-3 wrapper3" id="semaforo">
                 <h1><b>Señalización</b></h1>
             </div>

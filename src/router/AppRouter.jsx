@@ -16,10 +16,8 @@ export const AppRouter = () => {
         <Routes>
 
 <Route path="/" element={<HomePage />} />
-<Route path="/enclavamientos/personalizacion" element={<Interlocks />} />
-<Route path="/enclavamientos/adaptabilidad" element={<Adaptability/>} />
-<Route path="/enclavamientos/senalizacion" element={<Signaling/>} />
-<Route path="/enclavamientos/instalacion" element={<Instalation/>} />
+<Route path="/enclavamientos" element={<Interlocks />} />
+
 
         </Routes>
 <Footer />

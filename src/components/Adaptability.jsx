@@ -1,14 +1,8 @@
 import React, {useEffect} from 'react'
-import cerradura from '../assets/cerradura.webp'
-import cerradura2 from '../assets/cerradura2.webp'
-import marco from '../assets/marco.webp'
 
-import marco2 from '../assets/marco2.webp'
-import boton from '../assets/boton.webp'
 import control from '../assets/control.webp'
 import botones from '../assets/botones.webp'
-import boton2 from '../assets/boton2.webp'
-import biometrica from '../assets/biometrica.webp'
+
 import cerraduras from '../assets/cerraduras.webp'
 import {Link, useLocation} from 'react-router-dom'
 import controladores from '../assets/controladores.webp'

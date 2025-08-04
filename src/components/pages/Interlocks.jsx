@@ -2,8 +2,11 @@ import React, {useEffect} from 'react'
 import simple from '../../assets/simple.mp4'
 import giftheader from '../../assets/giftheader.mp4'
 import complejo from '../../assets/complejo.mp4'
-import { Adaptability } from '../Adaptability'
+
 import {Link, useLocation} from 'react-router-dom'
+import { Adaptability } from '../Adaptability'
+import { Signaling } from './Signaling'
+import { Instalation } from './Instalation'
 
 
 
@@ -41,7 +44,7 @@ export const Interlocks = () => {
             
         <h1><b>Nuestros Enclavamientos</b></h1>
           </div>
-        <section className=" text-light mt-5  pb-5 ">
+        <section className=" text-light mt-5  ">
             
             <div className="container pb-5">
 
@@ -196,6 +199,20 @@ Denominamos tres tipos de enclavamiento acorde a sus capacidades:</b></p> <br/>
          </section>
                 </div>
         </section>
+
+<section id="adaptability">
+
+   <Adaptability />
+</section>
+        
+        <section id="signaling">
+   <Signaling />
+        </section>
+
+<section id="instalation">
+
+   <Instalation />
+</section>
         </>
     )
 }

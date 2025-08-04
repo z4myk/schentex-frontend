@@ -44,19 +44,19 @@ export const Navbar = () => {
           <b>Enclavamientos</b><i class="fi fi-br-caret-down text-success"></i>
           </a>
           <ul class="dropdown-menu">
-            <Link to="/enclavamientos/personalizacion" className="text-decoration-none">
+            <Link to="/enclavamientos" className="text-decoration-none">
             <li><a class="dropdown-item p-3" href="#"><b>Personalización</b></a></li>
             </Link>
             <li><hr class="dropdown-divider" /></li>
-            <Link to="/enclavamientos/adaptabilidad" className="text-decoration-none">
+            <Link to="/enclavamientos#adaptability" className="text-decoration-none">
             <li><a class="dropdown-item p-3" href="#"><b>Adaptabilidad</b></a></li>
             </Link>
             <li><hr class="dropdown-divider" /></li>
-            <Link to="/enclavamientos/senalizacion" className="text-decoration-none">
+            <Link to="/enclavamientos#signaling" className="text-decoration-none">
             <li><a class="dropdown-item p-3" href="#"><b>Señalización</b></a></li>
             </Link>
             <li><hr class="dropdown-divider" /></li>
-            <Link to="/enclavamientos/instalacion" className="text-decoration-none">
+            <Link to="/enclavamientos#instalation" className="text-decoration-none">
             <li><a class="dropdown-item p-3" href="#"><b>Instalación</b></a></li>
             </Link>
           </ul>
