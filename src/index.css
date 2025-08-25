@@ -404,3 +404,32 @@ footer{
     border: 1px solid green;
   
 }
+
+
+
+.textPdf{
+  font-size: 14px;
+}
+
+
+.gradient-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* tonos más sutiles: negro, verde oscuro y un verde medio */
+  background: linear-gradient(-45deg, #002200, #001100, #002200, #004400, #002200);
+  background-size: 500% 500%;
+  animation: gradientMove 25s ease-in-out infinite;
+  z-index: 0;
+  filter: brightness(0.6) contrast(1.1); /* más oscuro y menos contraste */
+}
+
+@keyframes gradientMove {
+  0%   { background-position: 0% 50%; }
+  25%  { background-position: 40% 40%; }
+  50%  { background-position: 100% 60%; }
+  75%  { background-position: 60% 30%; }
+  100% { background-position: 0% 50%; }
+}

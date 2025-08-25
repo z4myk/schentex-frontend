@@ -117,6 +117,30 @@ export const Adaptability = () => {
             </div>
             
             </div>
+
+            <section className="pb-4 container">
+
+                 
+<h3>Conceptos generales</h3>
+<hr />
+<div className="border p-3 indice backgroundCards text-light mb-3">
+<b >Esclusa</b> <br/> 
+<p  id="esclusas"  className="mt-2">Espacio/habitación con dos o más puertas que conecta las zonas estériles con las exteriores (zonas con menos control o niveles de limpieza diferentes). El diseño de sus puertas no permite su apertura en simultáneo con el fin de prevenir la entrada de aire contaminado y mantener la presión positiva dentro de la Sala Limpia.
+</p>
+</div>
+<div className="border p-3   indice backgroundCards text-light mb-3">
+<b className="">Área Clasificada / Sala Limpia</b><br/>
+<p  id="salalimpia" className="mt-2">
+Habitaciones preparadas especialmente para obtener bajos niveles de contaminación. Cada sala se diseña con un propósito particular, por lo tanto, varían según cada industria.                     Más información sobre Salas Limpias aquí.
+</p>
+</div>
+
+<div className="border p-3  indice backgroundCards text-light">
+<b >Interlock / Enclavamiento</b><br/> 
+<p  id="enclavamiento" className="mt-2"> Condicionamiento del estado de dos o más mecanismos para que sean mutuamente dependientes. En nuestro caso, el condicionamiento es sobre las puertas de las esclusas.</p>
+
+</div>
+</section>
         </section>
     )
 }

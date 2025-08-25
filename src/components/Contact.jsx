@@ -2,6 +2,7 @@ import React from 'react'
 
 export const Contact = () => {
     return (
+        <>
         <section className="container mb-5 mt-5 pt-5 text-light" id="contact">
             <h2 className="text-light text-center">Contáctanos</h2>
             <hr />
@@ -35,6 +36,27 @@ export const Contact = () => {
 
               
             </div>
+
+
+         
+
         </section>
+        <section
+      className="d-flex align-items-center justify-content-center text-center text-light"
+      style={{
+        minHeight: "60vh",
+        position: "relative",
+        overflow: "hidden",
+      }}
+    >
+      {/* Fondo animado */}
+      <div className="gradient-bg"></div>
+
+      {/* Texto encima */}
+      <div style={{ position: "relative", zIndex: 1 }}>
+       
+      </div>
+    </section>
+        </>
     )
 }

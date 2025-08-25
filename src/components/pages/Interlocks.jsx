@@ -7,7 +7,7 @@ import {Link, useLocation} from 'react-router-dom'
 import { Adaptability } from '../Adaptability'
 import { Signaling } from './Signaling'
 import { Instalation } from './Instalation'
-
+import anmat from '../../assets/anmat.pdf'
 
 
 
@@ -147,29 +147,7 @@ Denominamos tres tipos de enclavamiento acorde a sus capacidades:</b></p> <br/>
             </div>
 
                 <div className=" p-5  backgroundSection text-light">
-                    <section className="pb-4 container">
-
-                 
-                    <h3>Conceptos generales</h3>
-                    <hr />
-                <div className="border p-3 indice backgroundCards text-light mb-3">
-                <b >Esclusa</b> <br/> 
-                <p  id="esclusas"  className="mt-2">Espacio/habitación con dos o más puertas que conecta las zonas estériles con las exteriores (zonas con menos control o niveles de limpieza diferentes). El diseño de sus puertas no permite su apertura en simultáneo con el fin de prevenir la entrada de aire contaminado y mantener la presión positiva dentro de la Sala Limpia.
-</p>
-                </div>
-<div className="border p-3   indice backgroundCards text-light mb-3">
-<b className="">Área Clasificada / Sala Limpia</b><br/>
-<p  id="salalimpia" className="mt-2">
-  Habitaciones preparadas especialmente para obtener bajos niveles de contaminación. Cada sala se diseña con un propósito particular, por lo tanto, varían según cada industria.                     Más información sobre Salas Limpias aquí.
-</p>
-</div>
-
-        <div className="border p-3  indice backgroundCards text-light">
-        <b >Interlock / Enclavamiento</b><br/> 
-<p  id="enclavamiento" className="mt-2"> Condicionamiento del estado de dos o más mecanismos para que sean mutuamente dependientes. En nuestro caso, el condicionamiento es sobre las puertas de las esclusas.</p>
-
-        </div>
-</section>
+                   
 <section>
 
 
@@ -182,13 +160,19 @@ Denominamos tres tipos de enclavamiento acorde a sus capacidades:</b></p> <br/>
              <p className="small">Contar con un sistema de enclavamientos instalado colabora con el cumplimiento de normativas requeridas según cada sector. </p>
              <ul>
                  <li>ISO 14644</li>
-                 <li> GMP - Buenas prácticas</li>
-                 <li>ANMAT & SENASA</li>
+                 <li>ANMAT GMP - Buenas practicas de fabricación</li> <a href={anmat} target="_blank" rel="noopener noreferrer" className="text-decoration-none textPdf">
+                 <i class="fi fi-rs-file-pdf"></i> ANMAT_MED_BPF_001-017
+</a>
+                
              </ul>
          </div>
          <div className="  border p-3 mt-4 container shadow backgroundCards text-light indice" >
              <p><b>¿Cuál es el objetivo del sistema de enclavamiento?</b></p>
-             <p className="small">El objetivo central de un sistema de enclavamiento en salas limpias es asegurar la inocuidad del espacio, proteger materiales sensibles de posibles contaminantes externos y facilitar la correcta circulación del personal entre las áreas. </p>
+             <ul>
+                 <li className="">Facilitar la correcta circulación del personal entre las áreas</li>
+                 <li>
+Llevar a cabo el proceso de Interlock/Enclavamiento de una o varias puertas, asegurando que nunca puedan abrirse simultáneamente, evitando la contaminación cruzada y regulando la presión entre áreas.</li>
+             </ul>
             
          </div>
          <div className="  border p-3 mt-4 container shadow backgroundCards text-light indice">
