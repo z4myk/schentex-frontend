@@ -146,27 +146,30 @@ Denominamos tres tipos de enclavamiento acorde a sus capacidades:</b></p> <br/>
             </div>
             </div>
 
-                <div className=" p-5  backgroundSection text-light">
+                <div className=" backgroundSection text-light">
                    
-<section>
+<section  style={{ position: "relative", overflow: "hidden" }} 
+    >
+      {/* Fondo animado */}
+      <div className="gradient-bg"></div>
 
 
-             <div className="mt-5 container">
+             <div className="mt-5 container" style={{ position: "relative", zIndex: 1 }}>
              <h3>Preguntas Frecuentes</h3>
              <hr />
              </div>
-         <div className="  border p-3 container shadow backgroundCards text-light indice">
+         <div className="  border p-3 container shadow backgroundCards text-light indice" style={{ position: "relative", zIndex: 1 }}>
              <p><b>¿Qué normativas de salas limpias se facilitan al contar con un sistema de enclavamientos instalado?</b></p>
              <p className="small">Contar con un sistema de enclavamientos instalado colabora con el cumplimiento de normativas requeridas según cada sector. </p>
              <ul>
                  <li>ISO 14644</li>
-                 <li>ANMAT GMP - Buenas practicas de fabricación</li> <a href={anmat} target="_blank" rel="noopener noreferrer" className="text-decoration-none textPdf">
+                 <li>ANMAT GMP - Buenas practicas de fabricación</li> <a href={anmat} target="_blank" rel="noopener noreferrer" className="text-decoration-none text-success textPdf">
                  <i class="fi fi-rs-file-pdf"></i> ANMAT_MED_BPF_001-017
 </a>
                 
              </ul>
          </div>
-         <div className="  border p-3 mt-4 container shadow backgroundCards text-light indice" >
+         <div className="  border p-3 mt-4 container shadow backgroundCards text-light indice"  style={{ position: "relative", zIndex: 1 }}>
              <p><b>¿Cuál es el objetivo del sistema de enclavamiento?</b></p>
              <ul>
                  <li className="">Facilitar la correcta circulación del personal entre las áreas</li>
@@ -175,7 +178,7 @@ Llevar a cabo el proceso de Interlock/Enclavamiento de una o varias puertas, ase
              </ul>
             
          </div>
-         <div className="  border p-3 mt-4 container shadow backgroundCards text-light indice">
+         <div className="  border p-3 mt-4 container shadow backgroundCards text-light indice mb-5" style={{ position: "relative", zIndex: 1 }}>
              <p><b>¿Qué industrias pueden beneficiarse de este sistema?</b></p>
              <p className="small">Trabajamos con laboratorios, farmacéuticas, hospitales, industrias alimenticias y empresas de electrónica de precisión.</p>
             
